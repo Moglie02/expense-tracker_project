@@ -12,6 +12,43 @@
  <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
+    <section class="bgimage">
+        <div class= "container backhomeimg">
+            <img src="/assets/homeicon.jpeg" alt="" height="50px">
+        </div>
+        <div class="container-fluid has-bg-img">
+          <div class="row">
+            <div class="col-md-12 col-lg-8 mx-auto formbox" >
+                <h3 class="accsetup">LOGIN</h3>
+                <form>
+                    <div class="form-floating mb-2">
+                      <input type="text" class="form-control" id="firstName" placeholder="Enter Username">
+                      <label for="firstName">Enter Username</label>
+                    </div>
+                    <div class="form-floating mb-2">
+                      <input type="password" class="form-control" id="password" placeholder="Enter Password">
+                      <label for="floatingPassword">Enter Password</label>
+                    </div>
+                    <div class="text-center form-check mb-3">
+                      <a class="small spandesign" id="forgotPassword" href="#">Forgot password?</a>
+                    </div>
+      
+                    <div class="d-grid form mb-3">
+                      <button class="btn btn-lg btn-primary btn-login text-uppercase fw-bold mb-2" id="signin" type="submit">Sign In</button>
+                      <div class="text-center">
+                      </div>
+                    </div>
+                    <div class="d-grid">
+                        <button class="btn btn-outline-primary  btn-lg btn-createAccount text-uppercase fw-bold mb-2" id="registerUser"  type="submit">Register Account</button>
+                    <div id="toast">
+                      Wrong Credentials, Check Password or Email!!
+                    </div> 
+                  </form>
+               
+            </div> 
+          </div>
+        </div>
+    </section>
     
 </body>
 </html>
