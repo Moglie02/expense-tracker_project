@@ -35,7 +35,19 @@
 
 
 /*--ROBERT--*/
-
+.bgimage {
+    width: 100%;
+    height: 100vh;
+    background: url("../assets/coverimage.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
 
 
 
