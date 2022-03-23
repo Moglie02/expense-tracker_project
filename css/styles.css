@@ -18,14 +18,23 @@
   margin-top: 30px;
   margin-bottom: 30px;
   color: green;
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg);
+  transform-style: preserve-3d;
 }
 
 .div-image {
   height: 100%;
+  position: relative;
   margin-left: 60px;
   margin-top: -60px;
   padding: 0;
   z-index: -1;
+  opacity: 1;
+  transform: translate3d(60px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg);
+  transform-style: preserve-3d;
 }
 
 .section2-text {
@@ -36,19 +45,136 @@
   justify-content: center;
   margin-top: 60px;
   margin-left: -80px;
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg);
+  transform-style: preserve-3d;
 }
 
 #sign-up-btn {
-  color: white;
+  color: green;
   font-weight: bolder;
-  background-color: green;
+  background-color: white;
   border-radius: 10px;
-  border: transparent;
   margin-top: 40px;
+  margin-bottom: 40px;
   width: 220px;
   height: 40px;
 }
 
+.glow-on-hover {
+  width: 220px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: white;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  border: 2px solid green;
+}
+
+.glow-on-hover:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-on-hover:active {
+  color: white;
+}
+
+.glow-on-hover:active:after {
+  background: transparent;
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: white;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.section3 {
+  background-color: #3ba139;
+}
+
+.section3 .container {
+  position: relative;
+  text-align: center;
+}
+
+#one,
+#three {
+  font-family: ;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 300px;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+
+#two {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-top: 70px;
+  font-size: 25px;
+}
+
+.section3 button {
+  margin-bottom: 20%;
+  margin-left: -55%;
+}
 /*--YVONNE--*/
 
 /*--ROBERT--*/
@@ -75,7 +201,24 @@
   width: 50%;
   align-items: center;
   margin-left: 27%;
-  background-color: transparent;
+  /* background-color: transparent; */
+}
+.form-control {
+  background: rgba(255, 255, 255, 0.2);
+  border: 0px;
+  border-radius: 0px;
+  border-bottom: 2px solid white;
+  color: white;
+}
+.formbox {
+  background: rgba(0, 0, 0, 0.4);
+  height: 80vh;
+  box-shadow: -1px 1px 60px 10px black inset;
+}
+.btn {
+  background-color: #3ba139;
+  color: white;
+  border: 0px;
 }
 
 /*--ROBERT--*/
