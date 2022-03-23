@@ -1,51 +1,31 @@
-
-
-
-
-
-
 /*--SALMA--*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*--SALMA--*/
-
 
 /*--YVONNE--*/
 
 .section2-title h2 {
   text-align: center;
   justify-content: center;
-  font-size:30px;
-  font-weight:bolder;
-  font-family:"Roboto",cursive;
-  margin-top:30px;
-  margin-bottom:30px;
-  color:green;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: "Roboto", cursive;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: green;
 }
 
 .div-image {
-  height:100%;
-  margin-left:60px;
-  margin-top:-60px;
-  padding:0;
+  height: 100%;
+  margin-left: 60px;
+  margin-top: -60px;
+  padding: 0;
   z-index: -1;
 }
 
 .section2-text {
-  font-family:sans-serif;
-  font-weight:bold;
+  font-family: sans-serif;
+  font-weight: bold;
   font-size: 20px;
   text-align: center;
   justify-content: center;
@@ -54,50 +34,33 @@
 }
 
 #sign-up-btn {
-  color:white;
+  color: white;
   font-weight: bolder;
-  background-color:green;
-  border-radius:10px;
-  border:transparent;
-  margin-top:40px;
-  width:220px;
-  height:40px;
+  background-color: green;
+  border-radius: 10px;
+  border: transparent;
+  margin-top: 40px;
+  width: 220px;
+  height: 40px;
 }
-
-
-
-
 
 /*--YVONNE--*/
 
-
-
 /*--ROBERT--*/
-  
+
 .bgimage {
-    width: 100%;
-    height: 100vh;
-    background: url("../assets/coverimage.jpeg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    /* background-attachment: fixed; */
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-    font-family: sans-serif;
+  width: 100%;
+  height: 100vh;
+  background: url("../assets/formimage.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
 }
-  
-
-
-
-
-
-
-
-
-
-
 
 /*--ROBERT--*/
