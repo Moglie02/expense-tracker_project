@@ -90,28 +90,6 @@ h1 img {float:left;margin:0 5px 0 0}
     width: 100px;
 }
 
-.button-ml{
-    color:#2db84c!important;
-    border: 1px solid #2db84c;
-    max-height: 48px;
-    max-width: 194px
-    border-radius: 8px
-    border-top-left-radius: 8px;
-    border-top-right-radius 8px;
-    border-bottom-right-radius: 8px;
-    border-bottom-left-radius: 8px;
-}
-
-.button-ml-primary{
-    align-items: center;
-    border: 1px solid #2db84c;
-    border-radius: 8px;
-    max-height: 48px;
-    max-width: 196px
-    background-color #2db84c;
- 
-}
-
 div{
     text-align: right;
     margin: right;
