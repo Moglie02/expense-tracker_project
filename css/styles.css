@@ -28,7 +28,7 @@ h1 img {float:left;margin:0 5px 0 0}
 }
 
 header {
-    background: 3BA139;
+    background: green;
 
 }
 
@@ -42,7 +42,9 @@ header h1 {
 
 .navi {
     float: right;
+    padding: 12px;
 }
+
 
 .exc {
     color: yellow;
@@ -397,7 +399,9 @@ figure img {
     font-size: 35px;
     font-weight: normal;
     color: darkorange
-
+}
+.landing-text{
+    text-align: center;
 
 
 
