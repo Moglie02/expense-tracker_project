@@ -3,11 +3,79 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+nav {
+  height:45px !important;
+  overflow-y: hidden;
+}
+
+nav img {
+  width:40px;
+  height:40px;
+}
+
+.nav-item .text {
+  color:green !important;
+  margin-top:10px !important;
+}
+
+.nav-item .text:hover {
+  color:chocolate !important;
+}
+
+#topsignupbtn {
+  margin-top:10px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right:0px;
+  color: white;
+  font-weight: bolder;
+  font-size: 12px;
+  background-color:green;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  border: transparent;
+  float: right!important;
+}
+.top {
+  height:660px;
+}
+
+h1 {
+  margin-top: 80px;
+  text-align:center;
+  font-family: "Fredericka the Great";
+  font-size:70px;
+  overflow-y: hidden;
+}
+
+.top p {
+  margin-left: 50px;
+  margin-top: 90px;
+  font-family: "Berkshire Swash";
+  font-weight: bolder;
+  font-size: 30px;
+  color:black;
+}
+
+#sectionOne {
+  background-image: url("../assets/coverimage.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100%;
 }
 
 /*--SALMA--*/
 
 /*--YVONNE--*/
+
+#sectionTwo {
+  height:655px;
+}
 
 .section2-title h2 {
   text-align: center;
@@ -60,6 +128,7 @@
   margin-bottom: 40px;
   width: 220px;
   height: 40px;
+  border: 2px solid;
 }
 
 .glow-on-hover {
@@ -138,6 +207,10 @@
   100% {
     background-position: 0 0;
   }
+}
+
+#sectionThree {
+  height: 655px;
 }
 
 .section3 {
