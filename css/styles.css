@@ -70,6 +70,118 @@ h1 {
 }
 
 /*--SALMA--*/
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: #ffffff;
+}
+h1 img {float:left;margin:0 5px 0 0}
+.header-img {
+    height: 9%;
+    width: 15%;
+}
+.md:w-full{
+    width: 100px;
+}
+
+.button-ml{
+    color:#2db84c!important;
+    border: 1px solid #2db84c;
+    max-height: 48px;
+    max-width: 194px
+    border-radius: 8px
+    border-top-left-radius: 8px;
+    border-top-right-radius 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.button-ml-primary{
+    align-items: center;
+    border: 1px solid #2db84c;
+    border-radius: 8px;
+    max-height: 48px;
+    max-width: 196px
+    background-color #2db84c;
+ 
+}
+
+div{
+    text-align: right;
+    margin: right;
+    float: center;
+    padding: 0;
+}
+
+header h1 {
+    display: inline;
+}
+
+.header_GVHt{
+    background-color: green;
+    box-sizing: border-box;
+}
+
+.nav-link {
+    color: green;
+}
+
+.navi {
+    float: right;
+    padding: 12px;
+    position: relative;
+}
+
+
+.exc {
+    color: yellow;
+}
+
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.h-buttons {
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+.h-buttons button {
+    border-radius: 40px;
+    color: white;
+}
+
+.go {
+    border-radius: 20px;
+}
+
+.pepa {
+    color: lawngreen;
+}
+/*Background pic*/
+.landing {
+    background-image: url("../images/pizzabg.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.landing-text h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 60px;
+}
+a{
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+}
 
 /*--YVONNE--*/
 
