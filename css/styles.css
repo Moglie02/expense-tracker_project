@@ -31,13 +31,19 @@ header {
     background: green;
 
 }
+div{
+    text-align: right;
+    margin: right;
+    float: center;
+    padding: 0;
+}
 
 header h1 {
     display: inline;
 }
 
 .nav-link {
-    color: yellow;
+    color: green;
 }
 
 .navi {
@@ -86,10 +92,6 @@ figcaption {
     padding-top: 20px;
 }
 
-#order-pizza {
-    color: #000;
-}
-
 #list li {
     font-size: 24px;
     font-family: system-ui, serif;
@@ -105,11 +107,6 @@ figcaption {
     background-image: url("../images/sec/b1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.contact-overlay {
-    height: inherit;
-    background-color: rgba(0, 0, 0, 0.7);
 }
 
 input[type="email"] {
@@ -398,7 +395,7 @@ figure img {
     font-family: 'Shadows Into Light', cursive;
     font-size: 35px;
     font-weight: normal;
-    color: darkorange
+    color: green
 }
 .landing-text{
     text-align: center;
