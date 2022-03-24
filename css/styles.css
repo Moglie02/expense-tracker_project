@@ -241,7 +241,11 @@ div #section0ne {
   height:650px;
 }
 
-.row4 img {
+.three {
+  background-color: lightgrey;
+}
+
+#sectionThree img {
   height:80%;
 }
 
