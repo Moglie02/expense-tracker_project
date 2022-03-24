@@ -90,6 +90,21 @@ h1 img {float:left;margin:0 5px 0 0}
     width: 100px;
 }
 
+
+
+.justify-between {
+    justify-content: space-between;
+}
+.items-center, .row--align-center {
+    align-items: center;
+}
+.container {
+    margin: 0 auto;
+}
+
+
+
+
 div{
     text-align: right;
     margin: right;
