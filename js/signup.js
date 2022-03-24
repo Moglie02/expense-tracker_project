@@ -14,14 +14,3 @@ function registerFunc (e){
 
 
 }
-
-// $(document).ready(function(){
-//     $('#registerUser').click(function(e){
-//         e.preventDefault();
-//         localStorage.setItem('username' ,$('#email').value);
-//         localStorage.setItem('password', $('password').value);
-
-//         window.location.href = 'login.html'
-
-//     });
-// })
